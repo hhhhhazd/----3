@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 - 我的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>我的个人网站</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about.html" class="active">关于我</a></li>
+                    <li><a href="portfolio.html">作品集</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                    <li><a href="contact.html">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="搜索网站内容...">
+            <button id="searchButton">搜索</button>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="about-section">
+                <h2>关于我</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/300x300" alt="个人照片">
+                    </div>
+                    <div class="about-text">
+                        <h3>你好，我是XXX</h3>
+                        <p>我是一名热爱技术的开发者，擅长前端和后端开发。我喜欢创造有用的应用和解决问题。</p>
+                        <p>我拥有X年的开发经验，曾在多个项目中担任核心开发角色。我的技术栈包括但不限于：</p>
+                        <ul class="skills-list">
+                            <li>HTML5, CSS3, JavaScript</li>
+                            <li>React, Vue.js</li>
+                            <li>Node.js, Express</li>
+                            <li>Python, Django</li>
+                            <li>数据库设计与优化</li>
+                        </ul>
+                        <p>除了编程，我还喜欢阅读、旅行和摄影。我相信持续学习和尝试新事物是保持创新的关键。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="experience-section">
+                <h2>工作经历</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 至今</div>
+                        <div class="timeline-content">
+                            <h3>高级开发工程师</h3>
+                            <h4>XX科技有限公司</h4>
+                            <p>负责公司核心产品的前端架构设计和开发，优化用户体验，提高产品性能。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2020</div>
+                        <div class="timeline-content">
+                            <h3>Web开发工程师</h3>
+                            <h4>XX互联网公司</h4>
+                            <p>参与多个Web应用的开发，负责前端界面实现和后端API对接。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>初级开发工程师</h3>
+                            <h4>XX软件公司</h4>
+                            <p>参与公司产品的开发和维护，学习和应用各种前端技术。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="education-section">
+                <h2>教育背景</h2>
+                <div class="education-item">
+                    <h3>计算机科学与技术</h3>
+                    <h4>XX大学</h4>
+                    <p class="date">2012 - 2016</p>
+                    <p>主修课程：数据结构、算法分析、计算机网络、数据库系统、软件工程等。</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 我的个人网站. 保留所有权利。</p>
+            <div class="social-links">
+                <a href="#" aria-label="微博"><i class="fab fa-weibo"></i></a>
+                <a href="#" aria-label="微信"><i class="fab fa-weixin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

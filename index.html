@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>我的个人网站</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">首页</a></li>
+                    <li><a href="about.html">关于我</a></li>
+                    <li><a href="portfolio.html">作品集</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                    <li><a href="contact.html">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="搜索网站内容...">
+            <button id="searchButton">搜索</button>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h2>欢迎来到我的个人网站</h2>
+                <p>这是一个展示我的技能、项目和想法的地方。</p>
+            </section>
+
+            <section class="featured-content">
+                <h2>精选内容</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="项目1">
+                        <h3>项目一</h3>
+                        <p>这是我的第一个项目描述。这个项目展示了我的技能和创意。</p>
+                        <a href="#" class="btn">了解更多</a>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="项目2">
+                        <h3>项目二</h3>
+                        <p>这是我的第二个项目描述。这个项目展示了我的技能和创意。</p>
+                        <a href="#" class="btn">了解更多</a>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" alt="项目3">
+                        <h3>项目三</h3>
+                        <p>这是我的第三个项目描述。这个项目展示了我的技能和创意。</p>
+                        <a href="#" class="btn">了解更多</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="latest-posts">
+                <h2>最新博客</h2>
+                <div class="post">
+                    <h3>博客文章标题一</h3>
+                    <p class="date">2023年10月15日</p>
+                    <p>这是博客文章的摘要。点击下面的链接阅读更多内容。</p>
+                    <a href="#" class="btn">阅读更多</a>
+                </div>
+                <div class="post">
+                    <h3>博客文章标题二</h3>
+                    <p class="date">2023年10月10日</p>
+                    <p>这是博客文章的摘要。点击下面的链接阅读更多内容。</p>
+                    <a href="#" class="btn">阅读更多</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 我的个人网站. 保留所有权利。</p>
+            <div class="social-links">
+                <a href="#" aria-label="微博"><i class="fab fa-weibo"></i></a>
+                <a href="#" aria-label="微信"><i class="fab fa-weixin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
